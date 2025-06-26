@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\game\object\factory\ObjectFactory.cpp">
+      <Filter>GameServer\src\game\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\map\town\TownMap.cpp">
+      <Filter>GameServer\src\game\map</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MainGameServer.cpp">
+      <Filter>GameServer\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pch.cpp">
+      <Filter>GameServer\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\map\GameMapManager.cpp">
+      <Filter>GameServer\src\game\map</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\map\GameMap.cpp">
+      <Filter>GameServer\src\game\map</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\object\GameObject.cpp">
+      <Filter>GameServer\src\game\object</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\object\actor\Player.cpp">
+      <Filter>GameServer\src\game\object\actor</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\object\actor\Actor.cpp">
+      <Filter>GameServer\src\game\object\actor</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\session\GameSession.cpp">
+      <Filter>GameServer\src\game\session</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\session\GameSessionManager.cpp">
+      <Filter>GameServer\src\game\session</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\redis\GameRedisManager.cpp">
+      <Filter>GameServer\src\game\redis</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\Logger\Logger.cpp">
+      <Filter>GameServer\src\common\Logger</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\crypto\CryptoManager.cpp">
+      <Filter>GameServer\src\common\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\dump\Dump.cpp">
+      <Filter>GameServer\src\common\dump</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\monitoring\Monitoring.cpp">
+      <Filter>GameServer\src\common\monitoring</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\parser\ConfigLoader.cpp">
+      <Filter>GameServer\src\common\parser</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\parser\INI\INIParser.cpp">
+      <Filter>GameServer\src\common\parser\INI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\utils\MathUtils.cpp">
+      <Filter>GameServer\src\common\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\utils\StringUtils.cpp">
+      <Filter>GameServer\src\common\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\utils\TimeUtils.cpp">
+      <Filter>GameServer\src\common\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\network\packet\ClientPacketHandler.cpp">
+      <Filter>GameServer\src\network\packet</Filter>
+    </ClCompile>
+    <ClCompile Include="src\network\protobuf\Enum.pb.cc">
+      <Filter>GameServer\src\network\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="src\network\protobuf\Protocol.pb.cc">
+      <Filter>GameServer\src\network\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="src\network\protobuf\Struct.pb.cc">
+      <Filter>GameServer\src\network\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\utils\EnumConverter.cpp" />
+    <ClCompile Include="src\game\component\Component.cpp" />
+    <ClCompile Include="src\game\component\move\MoveComponent.cpp" />
+    <ClCompile Include="src\game\system\System.cpp" />
+    <ClCompile Include="src\game\system\move\MoveSystem.cpp" />
+    <ClCompile Include="src\game\component\utils\ComponentContainer.cpp" />
+    <ClCompile Include="src\common\utils\SparseSet.cpp" />
+    <ClCompile Include="src\game\system\base\BaseSystem.cpp" />
+    <ClCompile Include="src\common\timer\WorldTimer.cpp" />
+    <ClCompile Include="src\game\GameServer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\game\type\GameObjectType.h">
+      <Filter>GameServer\src\game\object</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\object\factory\ObjectFactory.h">
+      <Filter>GameServer\src\game\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\map\town\TownMap.h">
+      <Filter>GameServer\src\game\map</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pch.h">
+      <Filter>GameServer\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\map\GameMapManager.h">
+      <Filter>GameServer\src\game\map</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\map\GameMap.h">
+      <Filter>GameServer\src\game\map</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\object\GameObject.h">
+      <Filter>GameServer\src\game\object</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\object\actor\Player.h">
+      <Filter>GameServer\src\game\object\actor</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\object\actor\Actor.h">
+      <Filter>GameServer\src\game\object\actor</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\session\GameSession.h">
+      <Filter>GameServer\src\game\session</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\session\GameSessionManager.h">
+      <Filter>GameServer\src\game\session</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\redis\GameRedisManager.h">
+      <Filter>GameServer\src\game\redis</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\Logger\Logger.h">
+      <Filter>GameServer\src\common\Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\crypto\CryptoManager.h">
+      <Filter>GameServer\src\common\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\dump\Dump.h">
+      <Filter>GameServer\src\common\dump</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\macro\Define.h">
+      <Filter>GameServer\src\common\macro</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\math\Vector.h">
+      <Filter>GameServer\src\common\math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\monitoring\Monitoring.h">
+      <Filter>GameServer\src\common\monitoring</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\parser\ConfigLoader.h">
+      <Filter>GameServer\src\common\parser</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\parser\INI\INIParser.h">
+      <Filter>GameServer\src\common\parser\INI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\utils\MathUtils.h">
+      <Filter>GameServer\src\common\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\utils\StringUtils.h">
+      <Filter>GameServer\src\common\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\utils\TimeUtils.h">
+      <Filter>GameServer\src\common\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\network\packet\ClientPacketHandler.h">
+      <Filter>GameServer\src\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\network\proto\Enum.pb.h">
+      <Filter>GameServer\src\network\proto</Filter>
+    </ClInclude>
+    <ClInclude Include="src\network\proto\Protocol.pb.h">
+      <Filter>GameServer\src\network\proto</Filter>
+    </ClInclude>
+    <ClInclude Include="src\network\proto\Struct.pb.h">
+      <Filter>GameServer\src\network\proto</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\type\GameMapType.h" />
+    <ClInclude Include="src\game\utils\EnumConverter.h" />
+    <ClInclude Include="src\game\component\Component.h" />
+    <ClInclude Include="src\game\component\move\MoveComponent.h" />
+    <ClInclude Include="src\game\component\utils\ComponentIDGenerator.h" />
+    <ClInclude Include="src\game\system\System.h" />
+    <ClInclude Include="src\game\system\move\MoveSystem.h" />
+    <ClInclude Include="src\game\component\utils\ComponentContainer.h" />
+    <ClInclude Include="src\game\system\utils\SystemIDGenerator.h" />
+    <ClInclude Include="src\game\type\Types.h" />
+    <ClInclude Include="src\common\utils\SparseSet.h" />
+    <ClInclude Include="src\game\system\base\BaseSystem.h" />
+    <ClInclude Include="src\common\timer\WorldTimer.h" />
+    <ClInclude Include="src\game\GameServer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="GameServer">
+      <UniqueIdentifier>{612850ee-c1f9-45fa-8470-d454b71d701d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameServer\src">
+      <UniqueIdentifier>{7b2aa1c4-af34-42b3-95f8-02ae4fbb9b95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameServer\src\game">
+      <UniqueIdentifier>{ed47fba4-34de-420c-904e-f2705392fa10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameServer\src\game\utils">
+      <UniqueIdentifier>{6d579a5e-fdd5-469f-93e2-d7b2cce66535}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameServer\src\game\map">
+      <UniqueIdentifier>{d321adc2-a4f2-4eb9-9081-b508fadba70d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameServer\src\game\object">
+      <UniqueIdentifier>{07248efb-51fa-470b-91fb-3dfedc816ae2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameServer\src\game\object\actor">
+      <UniqueIdentifier>{418e4d44-49d6-4622-8c74-c2d27b6812cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameServer\src\game\session">
+      <UniqueIdentifier>{68e1eaeb-c9e4-4153-96a9-920b7719b412}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameServer\src\game\redis">
+      <UniqueIdentifier>{e869cf1f-f862-4edc-b4d9-cdb634a18363}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameServer\src\common">
+      <UniqueIdentifier>{1ac6e61a-72a1-4142-b1e8-dc2e64d23716}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameServer\src\common\Logger">
+      <UniqueIdentifier>{77db7556-d6b3-4399-a79f-8bf35257aa7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameServer\src\common\crypto">
+      <UniqueIdentifier>{b30d5aa1-5465-48ea-933f-0da734666392}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameServer\src\common\dump">
+      <UniqueIdentifier>{0fc499aa-f3ad-4ea9-b249-b64aa29be3b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameServer\src\common\macro">
+      <UniqueIdentifier>{f1a992ea-a0df-4975-a53b-21708fa5d419}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameServer\src\common\math">
+      <UniqueIdentifier>{7881ea8a-e9dc-49c6-9cdc-d2a0bd25d0b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameServer\src\common\monitoring">
+      <UniqueIdentifier>{b5dc3149-36f6-4f63-8b3b-81d5f29b7d12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameServer\src\common\parser">
+      <UniqueIdentifier>{3edddba6-8f97-4f9a-9bbe-d6e886a6982c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameServer\src\common\parser\INI">
+      <UniqueIdentifier>{390026b8-cd1c-41b5-ad4b-4c4534786b73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameServer\src\common\utils">
+      <UniqueIdentifier>{138b705c-adfc-47a4-b874-f5cc95f9b214}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameServer\src\network">
+      <UniqueIdentifier>{eb548e49-31b1-4da3-9dce-9a33cc321b85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameServer\src\network\packet">
+      <UniqueIdentifier>{e0326f16-3412-478e-a26b-2e89c092919b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameServer\src\network\proto">
+      <UniqueIdentifier>{fbb4a40a-6c99-40e0-b1f7-7212cfa72b3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameServer\src\network\protobuf">
+      <UniqueIdentifier>{977f5205-4a17-4cbd-aac2-50538fd744ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{d50a129a-79e3-4c90-9da3-d6f8f9c47e1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Protobuf">
+      <UniqueIdentifier>{05725d06-ad80-4989-92fb-49430271ddea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Protobuf\bin">
+      <UniqueIdentifier>{4d0f5c30-60d6-48ae-b4b0-691e364aa289}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
