@@ -38,6 +38,8 @@ public:
 	int64 GetObjectId() const { return _objectId; };
 	void SetObjectId(const int objectID) { _objectId = objectID; };
 
+// ==========================================================
+// TODO: 삭제 예정 Test 코드
 	string GetName() const { return _name; }
 	void SetName(const string& name) { _name = name; }
 
@@ -58,6 +60,8 @@ public:
 
 	float GetZ() const { return _position.z; }
 	void SetZ(const float z) { _position.z = z; }
+// ==========================================================
+
 
 	int64 GetMapLocalId() const noexcept { return _mapLocalId; }
 	void SetMapLocalId(const int64 mapLocalId) noexcept { _mapLocalId = mapLocalId; }
